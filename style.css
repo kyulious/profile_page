@@ -1,0 +1,132 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.gallery{
+    display: flex;
+    flex-direction: row;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(255, 208, 216);
+    background-color: rgb(255, 206, 214);
+    align-items: center;
+    padding-right: 40px;
+    padding-left: 40px;
+}
+.left #profile{
+    border-radius: 70%;
+    width: 200px;
+    height: 200px;
+    margin-top: 20px;
+}
+.left #name{
+    font-size: 40px;
+    margin-top: 30px;
+}
+.left #job{
+    font-size: 20px;
+    color: rgb(82, 80, 80);
+    margin-top: 13px;
+}
+
+.left #email{
+    margin-top: 50px;
+    width: 50px;
+}
+.left #gmail{
+    margin-top: 10px;
+}
+
+.left #phone{
+    margin-top: 50px;
+    width: 50px;
+}
+.left #number{
+    margin-top: 10px;
+}
+
+.left #git{
+    margin-top: 50px;
+    width: 50px;
+}
+.left #github{
+    margin-top: 10px;
+}
+
+.left #blog{
+    margin-top: 50px;
+    width: 50px;
+}
+.left #blogad{
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.left #dot{
+    border: 1px dotted #111;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+}
+.right #header{
+    display: flex;
+    flex-direction: row;
+}
+.right #header >h1{
+    font-weight: bolder;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 50px;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+.right #home{
+    margin-top: 55px;
+    margin-left: 40px;
+}
+.right #resume{
+    margin-top: 54px;
+    margin-left: 38px;
+}
+.right #projects{
+    margin-top: 54px;
+    margin-left: 40px;
+}
+.right #line{
+    border: 1px solid rgb(255, 133, 164);
+    width: 100vw;
+    margin-top: 20px;
+}
+.right #profile{
+    border: 1px solid pink;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
+    color: #fff;
+    font-weight: bolder;
+    background-color: rgb(255, 133, 164);
+}
+.right #nav>h3{
+   text-align: center;
+   margin-top: 40px;
+}
+.right #career{
+    border: 1px solid pink;
+    align-items: center;
+    margin-top: 60px;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
+    color: #fff;
+    font-weight: bolder;
+    background-color: rgb(255, 133, 164);
+}
+
